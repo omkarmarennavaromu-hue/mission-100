@@ -16,6 +16,15 @@ npm install        # first time only
 npm run dev        # development server → http://localhost:5173
 ```
 
+## Live site
+
+**🌐 https://omkarmarennavaromu-hue.github.io/mission-100/**
+
+Deployed from the `gh-pages` branch (production build). To update the live site after code
+changes: `npm run build`, then copy `dist/` contents to `gh-pages` and force-push that branch.
+Optional auto-deploy: copy `ci/deploy-pages.yml` to `.github/workflows/deploy-pages.yml`
+(requires a token with the `workflow` scope) — every push to `main` will then deploy automatically.
+
 Production build & preview:
 
 ```bash
